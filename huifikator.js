@@ -18,6 +18,6 @@ String.prototype.huifikacia = function (prefix = 'ху') {
         }
 	}
 
-	return this.split(' ').map(w => doHui(w)).join(' ');
+	return this.split(' ').map(doHui).join(' ');
 	
 };
