@@ -8,7 +8,7 @@
 
 `'Морковка два три'.huifikacia()` => String 'Пуёвка'
 
-`huifikacia('Морковка')` => String 'хуёвка'
+`huifikacia('Морковка')` => String 'Пуёвка'
 
 `huifikacia('Морковка два три')` => String 'Хуёвка хуя хуы'
 
